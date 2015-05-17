@@ -3,16 +3,27 @@
 
 \documentclass{res} 
 \usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+\usepackage[hidelinks]{hyperref}
+\usepackage{color}
+	\addtolength{\evensidemargin}{-.875in}
+\definecolor{background-gray}{gray}{0.3}
+\definecolor{text-white}{gray}{1}
+\definecolor{text-gray}{gray}{.2}
+\color{text-gray}
+
 \setlength{\textheight}{9.5in} % increase text height to fit on 1-page 
 
 \begin{document} 
 
-\begin{center}
-	\bf Samuel P. Rogal
-\end{center}
+{\huge \bf Samuel P. Rogal} \\
+\colorbox{background-gray}{
+	\color{background-gray}I
+	\hspace{\linewidth}\hspace{-2\fboxsep}
+}
+
 
 \begin{flushleft}
- 	\input{contact}
+ 	\footnotesize \input{contact}
 \end{flushleft}
                                   
 \begin{resume}
@@ -69,7 +80,8 @@
 	with external services like MailChimp and Facebook\\
 	
 \section{SOURCE}
-	The LaTeX source code
+	The LaTeX source code for this resume is available on GitHub at: \\
+	\url{https://github.com/Espresso77/Resume}
  
 \end{resume}
 \end{document}
