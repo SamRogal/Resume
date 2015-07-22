@@ -1,6 +1,8 @@
 # Resume
 Personal resume written in LaTeX
 
+Note: This is my first document written in LaTeX. The goal is just to reduce the time spent maintaining a resume by using programmer friendly tools and techniques.
+
 #### Run the following to setup local editing in Ubuntu/Linux Mint
 ```
 sudo apt-get install texlive
